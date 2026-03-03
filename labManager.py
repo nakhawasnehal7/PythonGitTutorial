@@ -18,7 +18,7 @@ while True:
     choice = input("What would you like to do:")
 
     if choice == "1":
-        if len(lab_equipment) >= 5:
+        if len(lab_equipment) >= 7:
             print("Your Laboratory cannot support any more equipment!")
         else:
             item = input("What would you like to add to the Laboratory:")
